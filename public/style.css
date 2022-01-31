@@ -1,0 +1,77 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	background-color: #e5e5e5;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a {
+	font-family: Poppins;
+}
+main .card {
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 2em 0;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	border-radius: 10px 10px 0px 0px;
+	padding: 1.5em;
+	filter: drop-shadow(0px 5px 100px rgba(0, 0, 0, 0.15));
+	background-color: #fff;
+}
+.hero .hero-img img {
+	padding: 2em 0;
+	margin-bottom: 5px;
+}
+.hero .hero-copy h1 {
+	font-weight: 600;
+}
+.card-row {
+	padding: 2em;
+	gap: 20px;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+.card-row .experience-card {
+	width: 175px;
+	position: relative;
+}
+.card-row .experience-card .card-img {
+	width: 175px;
+}
+.card-row .experience-card .card-info .top img {
+	width: 17px;
+	align-self: center;
+}
+.card-row .experience-card .card-info p {
+	font-size: 14px;
+	margin: 0;
+}
+.card-row .experience-card .card-info .top {
+	display: flex;
+	flex-direction: row;
+}
+.card-row .experience-card .card-info .top .grey {
+	color: #918e9b;
+}
+.card-row .experience-card .card-info .top p {
+	padding-left: 7px;
+}
+.card-badge {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	background-color: white;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-weight: bold;
+}
