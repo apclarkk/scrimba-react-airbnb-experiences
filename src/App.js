@@ -29,6 +29,11 @@ export default function App() {
 					<div className="container">
 						<div className="card-row row">{cardData}</div>
 					</div>
+					<center>
+						<a href="https://www.apclark.org" target="_blank">
+							by Andrew Clark
+						</a>
+					</center>
 				</div>
 			</div>
 		</main>
